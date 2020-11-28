@@ -49,7 +49,7 @@
     background-color: red;
     transition-duration: 0.5s;
 }
-#backgroundBody {
+body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -57,14 +57,58 @@
   background-size: cover;
   background-color: #464646;
 }
-body {
-  background: url(workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg);
-}
 
 
-@media only screen and (min-device-width: 768px) {
+
+@media only screen and (max-width:768px) {
   body {
     background: url(Screenshot_1.png);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 
+
+  }
+  #baslik {
+    font-size: 200%;
+  }
+  #aciklama {
+    font-size: 80%;
+  }
+  #aciklama2 {
+    font-size: 80%;
+  }
+  .fa {
+    color: white;
+    padding: 25px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    border-color: white;
+    margin: 5px 7px;
+  }
+  .fa-twitter:hover{
+      opacity: 0.5s;
+      background-color: #1da1f2;
+      transition-duration: 0.5s;
+  }
+  .fa-instagram:hover{
+      opacity: 0.5s;
+      background-color: #5851db;
+      transition-duration: 0.5s;
+  }
+  .fa-linkedin:hover{
+      opacity: 0.5s;
+      background-color: #0e76a8 ;
+      transition-duration: 0.5s;
+  }
+  .fa-google:hover{
+      opacity: 0.5s;
+      background-color: red;
+      transition-duration: 0.5s;
   }
 }
