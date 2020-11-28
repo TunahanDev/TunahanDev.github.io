@@ -58,13 +58,13 @@
   background-color: #464646;
 }
 body {
-  background-image: url('workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg');
+  background: url(workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg);
 }
 
 
 @media only screen and (min-device-width: 768px) {
   body {
-    background-image: url('Screenshot_1.png');
-    
+    background: url(Screenshot_1.png);
+
   }
 }
