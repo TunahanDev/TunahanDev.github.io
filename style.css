@@ -11,8 +11,9 @@
 
 .navbar-toggler {
   background-color: #4287f5;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  margin-right: 5%;
 }
 
 .nav-link {
