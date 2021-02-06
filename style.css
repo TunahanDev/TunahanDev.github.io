@@ -1,0 +1,17 @@
+body {
+  background: url(arkaplanuygun.jpg);
+
+  background-repeat: no-repeat;
+}
+
+.nav-item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.navbar {
+  background: none;
+}
+#sa {
+  background-color: lightcoral;
+  margin-top: 863px;
+}
