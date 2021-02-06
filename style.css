@@ -1,17 +1,43 @@
 body {
-  background: url(arkaplanuygun.jpg);
-
+  background: url(son2.jpg);
+ background-color: black;
   background-repeat: no-repeat;
 }
 
 .nav-item {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .navbar {
   background: none;
 }
 #sa {
   background-color: lightcoral;
-  margin-top: 863px;
+  margin-top: 919px;
+}
+#baslik {
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 37px;
+}
+#linkler {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+}
+#linkler:hover {
+  /*color: #ffdf6c;
+  border-bottom: #ffdf6c solid 1px;
+  */
+  transition-duration: 0.4s;
+  background-color: #ffdf6c;
+  color: black;
+  border-radius: 15%;
+  transform: scale(1.10);
+  
+}
+.navbar-toggler{
+  
+  background-color: #ffdf6c;
 }
