@@ -1,22 +1,33 @@
 body {
   background: url(son2.jpg);
- background-color: black;
+  background-color: white;
   background-repeat: no-repeat;
 }
 
 .nav-item {
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .navbar {
   background: none;
+  /*background-color: red;*/
 }
+.bgcolor.scrolled {
+  background-color: #4da8da;
+  transition-duration: 0.7s;
+  border-bottom: 1px solid #004e7c;
+}
+
 #sa {
   background-color: lightcoral;
   margin-top: 919px;
+  height: 1500px;
 }
 #baslik {
   color: white;
+
   font-family: "Noto Sans TC", sans-serif;
   font-size: 37px;
 }
@@ -31,13 +42,12 @@ body {
   border-bottom: #ffdf6c solid 1px;
   */
   transition-duration: 0.4s;
-  background-color: #ffdf6c;
-  color: black;
+  background-color: #4da8da;
+  /*color: black;*/
   border-radius: 15%;
-  transform: scale(1.10);
-  
+  transform: scale(1.1);
 }
-.navbar-toggler{
-  
-  background-color: #ffdf6c;
+.navbar-toggler {
+  background-color: #004e7c;
 }
+
