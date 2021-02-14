@@ -115,8 +115,10 @@ margin: 5px 0;
   border: 2px yellowgreen solid;
 }
 .col-md{
+  
   border: yellowgreen 1px solid;
 }
+
 #kayanyazi{
   font-size: 17px;
   font-family: "Noto Sans TC", sans-serif;
@@ -125,11 +127,19 @@ margin: 5px 0;
   border: yellowgreen 1px solid;
   text-align: center;
 }
+
+
 @media only screen and (max-width: 1080px){
   
+  body{
+    background-attachment: local;
+  }
   #linkler:hover {
     background-color: transparent;
     transform: scale(1.0);
+  }
+  .about{
+    margin-top: 104%;
   }
   .home{
     display: flex;
@@ -137,6 +147,7 @@ margin: 5px 0;
     color: white;
     min-height: 500px;
     font-family: "Noto Sans TC", sans-serif;
+    
  
   }
   .home .homecontent .yazi1{
