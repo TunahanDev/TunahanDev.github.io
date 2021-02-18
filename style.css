@@ -87,6 +87,16 @@ html {
   font-family: "Noto Sans TC", sans-serif;
   color: #b73225;
 }
+.typing-2 {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #b73225;
+  font-size: 20px;
+}
+.figure-caption {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  color: black;
+}
 .btn {
   text-decoration: none;
   background-color: #b73225;
@@ -104,19 +114,68 @@ html {
   justify-content: space-around;
 }
 #abt {
+  /*border: blue solid 2px;*/
   text-decoration: none;
-  color:black;
+  color: black;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 40px;
 }
 .divider {
   border: 1px solid;
-  color:black;
+  color: black;
   width: 30%;
   margin-top: 2.5%;
+  background-color: black;
+}
+.col {
+  padding: 3%;
+  background-color: white;
+ /* border: yellowgreen solid 2px;*/
+}
+.ozgecmıs {
+  font-family: "Noto Sans TC", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 15%;
+}
+.skillsdiv{
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.Skills{
+  padding-top: 2%;
+  font-family: "Noto Sans TC", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+.skillsdiv2{
+  /*border: blue solid 2px;*/
+}
+.progress-bar{
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #b73225;
+  
+}
+.progress-bar{
+  -webkit-transition: width 2.5s ease;
+    transition: width 2.5s ease;
+}
+#bosluk{
+  margin-top: 15%;
+}
+.contactdiv{
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 1080px) {
+  #bosluk{
+    margin-top: 50%;
+  }
   #linkler:hover {
     background-color: transparent;
     transform: scale(1);
@@ -146,14 +205,31 @@ html {
   }
   #abt {
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: "Noto Sans TC", sans-serif;
     font-size: 25px;
   }
+ 
   .divider {
     border: 1px solid;
-    color: white;
+    color: black;
     width: 30%;
-    margin-top: 6%;
+    margin-top: 5.2%;
+  }
+  .typing-2 {
+    font-family: "Noto Sans TC", sans-serif;
+    color: #b73225;
+    font-size: 13px;
+  }
+  .figure-caption {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 13px;
+    color: black;
+  }
+  .ozgecmıs {
+    font-family: "Noto Sans TC", sans-serif;
+    color: black;
+    font-size: 15px;
   }
 }
+
