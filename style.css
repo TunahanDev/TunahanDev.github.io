@@ -9,6 +9,8 @@ html {
 }
 
 .nav-item {
+  padding-top: 3%; /**/
+  padding-bottom: 3%; /**/
   padding-left: 0.5em;
   padding-right: 0.5em;
   /* padding-top: 2%;
@@ -130,7 +132,7 @@ html {
 .col {
   padding: 3%;
   background-color: white;
- /* border: yellowgreen solid 2px;*/
+  /*border: yellowgreen solid 2px;*/
 }
 .ozgecmıs {
   font-family: "Noto Sans TC", sans-serif;
@@ -138,42 +140,69 @@ html {
   font-size: 20px;
   padding-top: 15%;
 }
-.skillsdiv{
+.skillsdiv {
   margin-top: 5%;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
-.Skills{
+.Skills {
   padding-top: 2%;
   font-family: "Noto Sans TC", sans-serif;
   color: black;
   font-size: 18px;
 }
-.skillsdiv2{
+.skillsdiv2 {
   /*border: blue solid 2px;*/
 }
-.progress-bar{
+.progress-bar {
   font-family: "Noto Sans TC", sans-serif;
   background-color: #b73225;
-  
 }
-.progress-bar{
+.progress-bar {
   -webkit-transition: width 2.5s ease;
-    transition: width 2.5s ease;
+  transition: width 2.5s ease;
 }
-#bosluk{
-  margin-top: 15%;
+#bosluk {
+  margin-top: 14%;
 }
-.contactdiv{
+.contactdiv {
   margin-top: 5%;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
+#social {
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+#social:hover {
+  color: gray;
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+  border-left: 3px solid #b73225;
+  border-right: 3px solid #b73225;
+}
+#sosyalmedyadiv {
+  padding: 2%;
+  width: 100%;
+  background-color: black;
 
+  text-align: center;
+}
+.son {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
 @media only screen and (max-width: 1080px) {
-  #bosluk{
+  #bosluk {
     margin-top: 50%;
   }
   #linkler:hover {
@@ -209,7 +238,7 @@ html {
     font-family: "Noto Sans TC", sans-serif;
     font-size: 25px;
   }
- 
+
   .divider {
     border: 1px solid;
     color: black;
@@ -232,4 +261,3 @@ html {
     font-size: 15px;
   }
 }
-
