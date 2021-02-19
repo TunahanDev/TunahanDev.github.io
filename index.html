@@ -17,13 +17,15 @@
     />
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-      <link
+      href="path/to/font-awesome/css/font-awesome.min.css"/>
+
+      
+    <link rel="icon" href="icon.ico" type="image/icon type" />
+    <!---->
+    <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="icon.ico" type="image/icon type" />
-    <!---->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -32,8 +34,9 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bgcolor">
-      <a id="baslik" class="navbar-brand" href="#"><spam>Portfol.io</spam></a>
+      <a id="baslik" class="navbar-brand" data-aos="zoom-in-up" href="#"><spam>Portfol.io</spam></a>
       <button
+        data-aos="zoom-in-up"
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -43,6 +46,7 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
+        <span id="beyazbtn">beta</span>
       </button>
 
       <div
@@ -74,7 +78,7 @@
 
     <section class="home" id="home">
       <div class="uzunluk">
-        <div class="homecontent">
+        <div data-aos="fade-up" class="homecontent">
           <span class="yazi1"
             ><span style="color: #b73225">Hello</span> my name is</span
           >
@@ -144,7 +148,7 @@
     </div>
 
     <div class="container skillsdiv2">
-      <p class="Skills">HTML Skills</p>
+      <p data-aos="fade-up" class="Skills">HTML Skills</p>
       <div data-aos="fade-up" class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
@@ -153,7 +157,7 @@
           %90
         </div>
       </div>
-      <p class="Skills">CSS Skills</p>
+      <p data-aos="fade-up" class="Skills">CSS Skills</p>
       <div data-aos="fade-up" class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
@@ -162,7 +166,7 @@
           70%
         </div>
       </div>
-      <p class="Skills">JavaScript Skills</p>
+      <p data-aos="fade-up" class="Skills">JavaScript Skills</p>
       <div data-aos="fade-up" class="progress progress-striped active">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
@@ -171,7 +175,7 @@
           %25
         </div>
       </div>
-      <p class="Skills">C# Skills</p>
+      <p data-aos="fade-up" class="Skills">C# Skills</p>
       <div data-aos="fade-up" class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
@@ -180,7 +184,7 @@
           %50
         </div>
       </div>
-      <p class="Skills">Java Skills</p>
+      <p data-aos="fade-up" class="Skills">Java Skills</p>
       <div data-aos="fade-up" class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
@@ -189,8 +193,8 @@
           %40
         </div>
       </div>
-      <p class="Skills">MySql Skills</p>
-      <div data-aos="fade-up" class="progress">
+      <p data-aos="fade-up" class="Skills">MySql Skills</p>
+      <div data-aos="fade-up"  class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
           style="width: 60%"
@@ -200,8 +204,11 @@
       </div>
     </div>
     <div id="contact" style="z-index: -1"></div>
+
     <div id="bosluk"></div>
+
     <div
+      data-aos="fade-up" 
       class="container contactdiv"
       style="background-color: white; height: 100%"
     >
@@ -209,6 +216,21 @@
       <a href="#" id="abt">Contact</a>
       <hr class="divider" />
     </div>
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+        </div>
+        <div class="col-sm">
+          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+        </div>
+      </div>
+
+
     <footer>
       <div id="sosyalmedyadiv">
         <a
@@ -238,7 +260,7 @@
       <a
       id="social"
       href="https://github.com/TunahanDev"
-      class="fa fa-github""
+      class="fa fa-github"
       target="_blank"
     ></a>
       </div>
