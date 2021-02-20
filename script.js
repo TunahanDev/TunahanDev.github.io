@@ -1,4 +1,4 @@
-AOS.init();
+ AOS.init();
 
 $(window).scroll(function(){
     $('nav').toggleClass('scrolled',$(this).scrollTop()>30)
@@ -35,3 +35,5 @@ $('#abt').onScreen({
     lazyPlaceholder: 'someImage.jpg',
     debug: false
  });
+
+ 

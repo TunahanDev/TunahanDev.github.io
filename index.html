@@ -17,11 +17,15 @@
     />
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"/>
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
 
-      
-    <link rel="icon" href="icon.ico" type="image/icon type" />
-    <!---->
+    <!--fa js-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap"
       rel="stylesheet"
@@ -31,15 +35,20 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bgcolor">
-      <a id="baslik" class="navbar-brand" data-aos="zoom-in-up" href="#"><spam>Portfol.io</spam></a>
+      <a id="baslik" class="navbar-brand" href="#"><spam>Portfol.io</spam></a>
       <button
         data-aos="zoom-in-up"
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
+        s
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
@@ -55,20 +64,34 @@
       >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" id="linkler"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#" id="linkler" data-aos="zoom-in-up"
+              >Home<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a id="linkler" class="nav-link" href="#aboutme">About me</a>
+            <a
+              id="linkler"
+              class="nav-link"
+              data-aos="zoom-in-up"
+              href="#aboutme"
+              >About me</a
+            >
           </li>
 
           <li class="nav-item">
-            <a id="linkler" class="nav-link" href="#skls">Skills</a>
+            <a id="linkler" class="nav-link" data-aos="zoom-in-up" href="#skls"
+              >Skills</a
+            >
           </li>
 
           <li class="nav-item">
-            <a id="linkler" class="nav-link" href="#contact">Contact</a>
+            <a
+              id="linkler"
+              class="nav-link"
+              data-aos="zoom-in-up"
+              href="#contact"
+              >Contact</a
+            >
           </li>
         </ul>
 
@@ -194,7 +217,7 @@
         </div>
       </div>
       <p data-aos="fade-up" class="Skills">MySql Skills</p>
-      <div data-aos="fade-up"  class="progress">
+      <div data-aos="fade-up" class="progress">
         <div
           class="progress-bar progress-bar-striped progress-bar-animated"
           style="width: 60%"
@@ -208,7 +231,7 @@
     <div id="bosluk"></div>
 
     <div
-      data-aos="fade-up" 
+      data-aos="fade-up"
       class="container contactdiv"
       style="background-color: white; height: 100%"
     >
@@ -217,19 +240,72 @@
       <hr class="divider" />
     </div>
 
-    
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
-          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+          <div class="row">
+            <div class="col form" data-aos="flip-right">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col form" data-aos="flip-right">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last Name"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col form" data-aos="flip-right">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Mail"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+
+          <div class="row-sm">
+            <div class="form-floating form" data-aos="flip-right">
+              <textarea
+                class="form-control"
+                placeholder="Message..."
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+            </div>
+          </div>
+          <br />
+
+          <button class="btn btn-sm form" data-aos="flip-right">
+            <a class="btn btn-sm text-decoration-none">Submit</a>
+          </button>
         </div>
+
         <div class="col-sm">
-          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
-          <div style="border: yellowgreen solid 2px;"><p>contact</p></div>
+          <div class="adresler" data-aos="flip-right">
+            <span class="material-icons"> location_on </span>
+            <p class="yazi">Karesi/Balıkesir</p>
+          </div>
+          <div class="adresler" data-aos="flip-right">
+            <span class="material-icons"> phone </span>
+            <p class="yazi">(507) 050 27 11</p>
+          </div>
+          <div class="adresler" data-aos="flip-right">
+            <span class="material-icons"> alternate_email </span>
+            <p class="yazi">Tunahanyildiz1560@gmail.com</p>
+          </div>
         </div>
       </div>
-   </div>
+    </div>
 
     <footer>
       <div id="sosyalmedyadiv">
@@ -240,31 +316,31 @@
           target="_blank"
         ></a>
         <a
-        id="social"
-        href="https://www.instagram.com/tunahanylldz/"
-        class="fa fa-instagram"
-        target="_blank"
-      ></a>
-      <a
-        id="social"
-        href="https://www.linkedin.com/in/tnhnyldz/"
-        class="fa fa-linkedin"
-        target="_blank"
-      ></a>
-      <a
-        id="social"
-        href="mailto:tunahanyildiz1560@gmail.com"
-        class="fa fa-google"
-        target="_blank"
-      ></a>
-      <a
-      id="social"
-      href="https://github.com/TunahanDev"
-      class="fa fa-github"
-      target="_blank"
-    ></a>
+          id="social"
+          href="https://www.instagram.com/tunahanylldz/"
+          class="fa fa-instagram"
+          target="_blank"
+        ></a>
+        <a
+          id="social"
+          href="https://www.linkedin.com/in/tnhnyldz/"
+          class="fa fa-linkedin"
+          target="_blank"
+        ></a>
+        <a
+          id="social"
+          href="mailto:tunahanyildiz1560@gmail.com"
+          class="fa fa-google"
+          target="_blank"
+        ></a>
+        <a
+          id="social"
+          href="https://github.com/TunahanDev"
+          class="fa fa-github"
+          target="_blank"
+        ></a>
       </div>
-      <div class="son container-fluid ">© 2020 Copyright: Tunahan YILDIZ</div>
+      <div class="son container-fluid">© 2021 Copyright: Tunahan YILDIZ</div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script
