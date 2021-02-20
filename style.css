@@ -62,13 +62,13 @@ html {
 .home {
   margin-bottom: 2.6%;
   display: flex;
-  height: 90vh;
+  height: 100vh;
   color: white;
   min-height: 500px;
   font-family: "Noto Sans TC", sans-serif;
 }
 .uzunluk {
-  padding-left: 4%;
+  padding-left: 5%;
 }
 .home .uzunluk {
   margin: auto 0 auto 40px;
