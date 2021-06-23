@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/global.css" />
-    <link rel="stylesheet" href="/css/mobile.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="/css/mobile.css" />
     <!-- CSS -->
     <!--   Font Awesome -->
     <link
@@ -92,15 +92,19 @@
               <i class="material-icons">local_phone</i> 0 555 555 55 55
             </div>
             <div class="adres text">
-              <i class="material-icons ">mail_outline </i>asdf@gmail.com
+              <i class="material-icons">mail_outline </i>asdf@gmail.com
             </div>
             <div class="adres text">
-              <i class="material-icons">location_on</i>123 Main Street, New York, NY 10030</div>
+              <i class="material-icons">location_on</i>123 Main Street, New
+              York, NY 10030
+            </div>
             <div class="adres text">
-              <i class="material-icons">person</i>Lorem ipsum dolor sit amet.</div>
+              <i class="material-icons">person</i>Lorem ipsum dolor sit amet.
+            </div>
           </div>
           <div class="col-sm">
             <iframe
+              id="map"
               src="https://api-maps.yandex.ru/frame/v1/-/CVh7YBYg?lang=tr_TR"
               width="500"
               height="200"
