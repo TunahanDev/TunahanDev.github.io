@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  height: 100%;
+}
+.box {
+  margin: 1px;
+  text-align: center;
+  padding: 1rem;
+  border: black 1px solid;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: gray;
+}
+.box4 {
+  background-color: yellow;
+}
+.box5 {
+  background-color: orange;
+}
+.box6 {
+  background-color: pink;
+}
