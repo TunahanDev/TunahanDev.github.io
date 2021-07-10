@@ -135,6 +135,11 @@ img {
   width: 18rem;
   background-size: cover;
 }
+.sutun-1 img {
+  border-radius: 5%;
+  box-shadow: 15px 15px 12px #212529;
+  background-size: cover;
+}
 .img-1 {
   position: relative;
   bottom: 25px;
@@ -163,6 +168,7 @@ img {
   padding: 0.5rem 2.5rem;
   text-decoration: none;
   border: 2px solid #212529;
+  box-shadow: 10px 10px 10px #212529;
 }
 #button-1:hover {
   background-color: white;
@@ -188,7 +194,7 @@ img {
 }
 .card {
   width: 12.5%;
-  margin: 1rem; 
+  margin: 1.5rem;
 }
 .img-div {
   display: flex;
@@ -199,30 +205,32 @@ img {
 .img-div img {
   width: 200px;
   height: 200px;
+  border-radius: 5%;
 }
-.card-header{
+.card-header {
   margin: 0.2rem 0;
   text-align: center;
 }
-.card-textt{
+.card-textt {
   padding: 1rem;
 }
-#button2{
+#button2 {
   text-decoration: none;
   background-color: #212529;
   color: white;
   padding: 0.75rem;
-  border: 1px solid #212529 ;
+  border: 1px solid #212529;
+  box-shadow: 5px 5px 10px #212529;
 }
-#button2:hover{
+#button2:hover {
   text-decoration: none;
   background-color: white;
-  color: #212529 ;
+  color: #212529;
   padding: 0.75rem;
   transition-duration: 0.3s;
-  border: 1px solid #212529 ;
+  border: 1px solid #212529;
 }
-.textcard{
+.textcard {
   margin-bottom: 2rem;
 }
 /*odalaramız*/
