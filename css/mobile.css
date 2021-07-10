@@ -18,7 +18,9 @@
 /*carousel*/ /*carousel*/ /*carousel*/
 
 /*carouselın altındakı kısım */
-
+#button1 {
+  box-shadow: 10px 10px 10px #212529;
+}
 img {
   height: 8rem;
   width: 8rem;
@@ -36,7 +38,6 @@ img {
 }
 /*carouselın altındakı kısım */
 
-
 /*odalarımız*/
 .card {
   width: 80%;
@@ -49,20 +50,22 @@ img {
 .img-div img {
   width: 270px;
   height: 270px;
+  border-radius: 5%;
 }
-#button2{
+#button2 {
   text-decoration: none;
   background-color: #212529;
   color: white;
   padding: 0.75rem;
-  border: 1px solid #212529 ;
+  border: 1px solid #212529;
+  box-shadow: 5px 5px 10px #212529;
 }
-#button2:hover{
+#button2:hover {
   text-decoration: none;
   background-color: white;
-  color: #212529 ;
+  color: #212529;
   padding: 0.75rem;
   transition-duration: 0.3s;
-  border: 1px solid #212529 ;
+  border: 1px solid #212529;
 }
 /*odalarımız*/
