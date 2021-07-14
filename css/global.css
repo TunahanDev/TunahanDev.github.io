@@ -10,3 +10,9 @@
 .center{
   text-align: center;
 }
+.baslik-font{
+  font-family: 'Parisienne', cursive;
+}
+img{
+  background-size: contain;
+}
